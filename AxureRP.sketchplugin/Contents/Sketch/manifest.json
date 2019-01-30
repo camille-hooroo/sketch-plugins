@@ -1,0 +1,45 @@
+{
+  "name": "Axure RP",
+  "identifier": "com.axure.sketch.AxureRP",
+  "appcast": "https://www.axure.com/misc/sketch/appcast.xml",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "script": "commands.ts",
+      "handlers": {
+        "actions": {
+          "OpenDocument": "setupMenu",
+          "ArtboardChanged.finish": "checkArtboardsAndToggleMenu",
+          "SelectionChanged.finish": "checkCurrentSelectionAndToggleMenu"
+        }
+      }
+    },
+    {
+      "name": "Copy Selection",
+      "identifier": "copyselection",
+      "script": "commands.ts",
+      "handler": "copySelection",
+      "shortcut": "ctrl shift r"
+    },
+    {
+      "name": "Copy All Artboards",
+      "identifier": "copyartboards",
+      "script": "commands.ts",
+      "handler": "copyAllArtboards",
+      "shortcut": "ctrl shift p"
+    }
+  ],
+  "menu": {
+    "title": "Axure RP",
+    "items": [
+      "copyselection",
+      "copyartboards"
+    ]
+  },
+  "version": "0.9.5",
+  "description": "Copy layers and artboards to Axure RP",
+  "homepage": "https://www.axure.com/sketch-plugin",
+  "disableCocoaScriptPreprocessor": true,
+  "author": "Axure Software Solutions"
+}

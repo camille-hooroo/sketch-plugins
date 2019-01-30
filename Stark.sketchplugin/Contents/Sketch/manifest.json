@@ -1,0 +1,32 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Check Contrast",
+      "identifier": "contrast",
+      "script": "contrast.js"
+    },
+    {
+      "name": "Colorblind Simulation",
+      "identifier": "colorblind",
+      "script": "colorblind.js"
+    }
+  ],
+  "menu": {
+    "title": "Stark",
+    "items": [
+      "colorblind",
+      "contrast"
+    ]
+  },
+  "identifier": "com.mfouquet.sketch.stark",
+  "version": "2.0",
+  "description": "Ensure your design is accessible and high contrast for every type of color blindness.",
+  "author": "Michael Fouquet, Cat Noone, Benedikt Lehnert",
+  "authorEmail": "michael.fouquet@me.com",
+  "appcast": "https://raw.githubusercontent.com/stark-contrast/stark-sketch-plugin/master/appcast.xml",
+  "name": "Stark",
+  "disableCocoaScriptPreprocessor": true
+}
