@@ -1,5 +1,8 @@
 # sketch-plugins
-A library of plugins I use in my sketch workflow. 
+A library of plugins I use in my sketch workflow.
+
+## How to use 
+Clone this repository in your **Sketch Plugins Folder** `/Users/yourname/Library/Application\ Support/com.bohemiancoding.sketch3/Plugins`
 
 # List of plugins
 
