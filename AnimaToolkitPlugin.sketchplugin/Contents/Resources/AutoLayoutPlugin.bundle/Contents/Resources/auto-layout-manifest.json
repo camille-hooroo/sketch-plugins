@@ -268,11 +268,11 @@
     "authorEmail" : "support@animaapp.com",
     "name" : "Anima Toolkit",
     "homepage": "https://www.animaapp.com",
-    "version": "3.0.0",
+    "version": "3.0.12",
     "manifestURL": "",
     "downloadURL": "",
     "compatibleVersion": 53,
     "bundleVersion": 1,
-    "appcast": "https://www.animaapp.com/beta/appcast.xml",
+    "appcast": "https://www.animaapp.com/timeline/appcast.xml",
     "icon": "plugin_list_logo.png"
 }

@@ -11,11 +11,11 @@
 function loadBundleIfRequired() {
     if (NSClassFromString("APSketch") == null) {
         try {
-            runtime.loadBundle("STCPlugin.bundle");
+            runtime.loadBundle("AutoLayoutPlugin.bundle");
             [APSketch setPluginContextDictionary:context];
         } catch (e) {
             try {
-                runtime.loadBundle("AnimaPlugin.bundle");
+                runtime.loadBundle("AnimaToolkitTests.bundle");
                 [APSketch setPluginContextDictionary:context];
             } catch (e) {
                 try {

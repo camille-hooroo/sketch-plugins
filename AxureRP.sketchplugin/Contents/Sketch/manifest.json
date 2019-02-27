@@ -37,7 +37,7 @@
       "copyartboards"
     ]
   },
-  "version": "0.9.5",
+  "version": "0.9.6",
   "description": "Copy layers and artboards to Axure RP",
   "homepage": "https://www.axure.com/sketch-plugin",
   "disableCocoaScriptPreprocessor": true,

@@ -19,9 +19,15 @@ function togglePanel(context) {
 }
 
 function start(context) {
-    if (NSClassFromString("APSketch") == null) {
+    try {
         runtime.loadBundle("AutoLayoutPlugin.bundle");
         [APSketch setPluginContextDictionary:context];
+    } catch (e) {
+        try {
+            runtime.loadBundle("AnimaToolkitTests.bundle");
+            [APSketch setPluginContextDictionary:context];
+        } catch (e) {
+        }
     }
     try {
         [APSketch setPluginContextDictionary:context];
